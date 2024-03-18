@@ -21,3 +21,12 @@ main{
 .video-referencia{
     width: 300px;
 }
+#campinas-com-fundo{
+    font-size: 15vh;
+    background-image: url(download.jpeg);
+    background-size: contain;
+    background-clip: text;
+    color: transparent;
+    border: 2px solid black;
+
+}
