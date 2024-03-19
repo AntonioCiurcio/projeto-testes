@@ -1,15 +1,38 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
 h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: rgb(0, 0, 0);
    
 }
 header{
-    background-color: rgba(94, 94, 215, 0.394);
-    color: aliceblue;
+    background-color: #EAAA08;
+    color: rgb(2, 2, 2);
 
 }
+.item-menu{
+    border: black double;
+    border-radius: 10px;
+    padding: 2px 5px;
+    text-align: center;
+    background-color: #EAAA08;
+}    
 main{
-    background-color: rgba(128, 128, 128, 0.794);
+    display: flex;
+    margin: 3px;
+}
+article{
+    margin: 0px 5px;
+    padding: 20px;
+    background-color: rgb(247, 235, 188) ;
+}
+ul{
+   margin: 0px 25px;
 }
