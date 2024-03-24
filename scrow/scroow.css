@@ -5,6 +5,7 @@
 
 h1, h2, h3, h4, h5, h6{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     height: 100vh;
@@ -51,19 +52,22 @@ nav{
     transition: 0.8s;
 }       
 main{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin: -100px;
-    
-    
+    width: 750px;
+    margin: auto;
+    margin-top: -100px;
+
+
 }
 article{
-    margin: 0px 5px;
+    margin: 5px 5px;
     padding: 20px;
     background-color: rgb(247, 235, 188) ;
     border-radius: 25px 0px;
 }
-ul{
-   margin: 0px 25px;
+.referencia{
+    text-align: center;
+    max-width: 750px;
+}
+.video-referencia{
+    width: 300px;
 }
